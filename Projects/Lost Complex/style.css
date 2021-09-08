@@ -1,0 +1,28 @@
+ul#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #444444;
+    overflow: hidden;
+}
+ul#navbar > li {
+    display: inline;
+    float: right;
+    border-left: 1px solid #ccc;
+}
+ul#navbar > li > a {
+    display: block;
+    padding: 8px;
+    background-color: #6b6b6b;
+}
+a.active {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline wavy;
+    transition: 1s text-decoration;
+}
