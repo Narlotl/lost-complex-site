@@ -26,3 +26,7 @@ a:hover {
     text-decoration: underline wavy;
     transition: 1s text-decoration;
 }
+body {
+    background-image: url(bg.png);
+    background-color: #222;
+}
