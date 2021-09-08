@@ -4,6 +4,8 @@ ul#navbar {
     padding: 0;
     background-color: #444444;
     overflow: hidden;
+    top: 10px;
+    position: sticky;
 }
 ul#navbar > li {
     display: inline;
@@ -29,7 +31,8 @@ a:hover {
 body {
     background-image: url(bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
+    background-attachment: fixed;
     background-color: #222;
 }
 #content {
