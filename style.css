@@ -42,6 +42,7 @@ body {
     background-size: 100vw;
     background-attachment: fixed;
     background-color: #222;
+    background-position-y: 50px;
 }
 #content {
     margin-top: 70vh;
