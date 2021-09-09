@@ -37,7 +37,7 @@ a:hover {
     transition: 1s text-decoration;
 }
 body {
-    background-image: url(bg.png);
+    background-image: url(bg.svg);
     background-repeat: no-repeat;
     background-size: 100vw;
     background-attachment: fixed;
@@ -45,6 +45,6 @@ body {
     background-position-y: 50px;
 }
 #content {
-    margin-top: 70vh;
+    margin-top: calc(50px + 100vw / 4.25);
     background-color: #444444;
 }
