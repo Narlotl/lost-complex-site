@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Lost Complex Source</title>
     <link href="style.css" rel="stylesheet">
+    <title>Download The Lost Complex</title>
 </head>
-
 <body>
     <ul id="navbar">
         <li style="float: left; border-right: 1px solid #ccc;
@@ -36,11 +34,15 @@
                 </svg></a></li>
     </ul>
     <div id="content">
-        <h1 style="text-align: center;">Source code</h1>
-        <p>The Lost Complex is completely open-source. The lates version of code can be found <a title="Warning! This may not be released and likely will have bugs. Always download a stable release." href="https://github.com/Entangled-Ones/lost-complex">here</a>. The code is liscensed under the <abbr title="You may modify, sell, distribute, or privately use the code. If you do, you must use the same license, show the source, and show your changes. This license has no warranty.">GNU General Public License v2.0</abbr></p>
-        <h3>Versions</h3>
-        <p><a href="https://github.com/Entangled-Ones/lost-complex/archive/refs/tags/v0.0.0.zip">v0.0.0</a></p>
+        <h1 style="text-align: center;">Versions</h1>If you want to download the source code to modify, go <a href="source.html">here.</a>
+        <p onclick="
+        var versionContainer = document.querySelector('version#' + this.innerHTML);
+        if (versionContainer.style.display != 'none')
+        versionContainer.style.display = 'none';
+        else 
+            versionContainer.style.display = '';
+        ">v0</p>
+        <version id="v0"><a href="https://github.com/Entangled-Ones/lost-complex/releases/tag/v0.0.0">Download v0.0.0</a></version>
     </div>
 </body>
-
 </html>
