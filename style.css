@@ -39,7 +39,7 @@ a:hover {
 body {
     background-image: url(bg.svg);
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100%;
     background-attachment: fixed;
     background-color: #222;
     background-position-y: 50px;
