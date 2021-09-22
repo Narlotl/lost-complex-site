@@ -45,6 +45,6 @@ body {
     background-position-y: 50px;
 }
 #content {
-    margin-top: calc(50px + 100vw / 4.25);
+    margin-top: 45%;
     background-color: #444444;
 }
